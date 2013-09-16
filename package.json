@@ -1,0 +1,21 @@
+{
+  "name": "node-cheeky",
+  "version": "0.0.1",
+  "description": "Node implementation for dream cheeky launcher",
+  "dependencies": {
+    "usb": "~0.2.3",
+    "underscore": "~1.5.2",
+    "express": "~3.4.0",
+    "config": "~0.4.30",
+    "express-resource": "~1.0.0",
+    "colors": "~0.6.2"
+  },
+  "devDependencies": {
+    "chai": "~1.7.2",
+    "mocha": "~1.13.0",
+    "sinon": "~1.7.3"
+  },
+  "scripts": {
+    "test": "mocha --recursive tests --reporter spec"
+  }
+}
