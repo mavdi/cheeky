@@ -2,5 +2,14 @@
   "device" : {
     "idVendor" : 8483,
     "idProduct" : 4112
+  },
+  "commands" : {
+    "down" : "0x01",
+    "up" : "0x02",
+    "left" :"0x04",
+    "right" : "0x08",
+    "shoot" : "0x10",
+    "stop" : "0x20",
+    "boom" : "0x40"
   }
 }
